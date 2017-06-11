@@ -1,4 +1,4 @@
-# Webpack +VueJs template by Anexsoft
+# Webpack +VueJs Template by Anexsoft
 
 > Este es un template para webpack y VueJs que nos va a permitir registrar nuestros componentes de manera global.
 
