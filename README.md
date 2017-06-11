@@ -1,6 +1,6 @@
 # Webpack +VueJs Template by Anexsoft
 
-> Este es un template para webpack y VueJs que nos va a permitir registrar nuestros componentes de manera global.
+> Este es un template para Webpack y VueJs que nos va a permitir registrar nuestros componentes de manera global e independiente.
 
 La ventaja de este es que nos permite registrar componentes para un solo archivo cuando queremos cosas globales (global.main.js) y archivos independientes cuando nuestro componente solo debería existir para cierto módulo de nuestro sistema. Por ende, con este evitamos tener todo en un solo archivo y ganar performance hacia el Browser.
 
