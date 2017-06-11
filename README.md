@@ -2,7 +2,7 @@
 
 > Este es un template para webpack y VueJs que nos va a permitir registrar nuestros componentes de manera global.
 
-La ventaja de este es que nos permite registrar componentes para un solo archivo cuando queremos cosas globales (global.main.js) y por archivos separados cuando nuestro componente solo debería existir para cierto módulo de nuestro sistema. Por ende, con este evitamos tener todo en un solo archivo y ganar performance hacia el Browser.
+La ventaja de este es que nos permite registrar componentes para un solo archivo cuando queremos cosas globales (global.main.js) y archivos independientes cuando nuestro componente solo debería existir para cierto módulo de nuestro sistema. Por ende, con este evitamos tener todo en un solo archivo y ganar performance hacia el Browser.
 
 ## Requisitos previos
 Debemos tener instalado el client de Vue para que pueda compilar las extensiones .vue.
@@ -18,7 +18,6 @@ cd my-project-path
 
 # Corramos el comando para clonar
 git clone https://github.com/Anexsoft/WebPack-VueJs-Template
-cd my-project
 
 # Actualizamos las dependencias
 npm update
