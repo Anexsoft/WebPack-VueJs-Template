@@ -17,7 +17,7 @@ npm install -g vue-cli
 cd my-project-path
 
 # Corramos el comando para clonar
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+git clone https://github.com/Anexsoft/WebPack-VueJs-Template
 cd my-project
 
 # Actualizamos las dependencias
