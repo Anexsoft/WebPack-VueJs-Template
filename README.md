@@ -44,10 +44,6 @@ window.addEventListener('load', function() {
         el: '#app',
         components: Components
     })
-
-    for (var k in Components) {
-        Vue.component(Components[k].name, Components[k])
-    }
 })
 ```
 
@@ -58,10 +54,6 @@ $(document).ready(function() {
         el: '#app',
         components: Components
     })
-
-    for (var k in Components) {
-        Vue.component(Components[k].name, Components[k])
-    } 
 })
 ```
 
