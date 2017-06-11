@@ -4,7 +4,7 @@ var webpack = require('webpack')
 module.exports = {
   entry: {
     global: './src/global.main.js',
-    icon: './src/icon.main.js'
+    example: './src/example.main.js'
   },
   output: {
     path: path.resolve(__dirname, './dist'),
