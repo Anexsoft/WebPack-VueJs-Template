@@ -54,7 +54,6 @@ window.addEventListener('load', function() {
 ### jQuery Style
 ``` js
 $(document).ready(function() {
-window.addEventListener('load', function() {
     new Vue({
         el: '#app',
         components: Components
@@ -62,8 +61,7 @@ window.addEventListener('load', function() {
 
     for (var k in Components) {
         Vue.component(Components[k].name, Components[k])
-    }
-})  
+    } 
 })
 ```
 
