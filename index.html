@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>WebPack Template by Anexsoft</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+  </head>
+  <body>
+    <div id="app" class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="jumbotron">
+            Vuejs + Web Template by <a href="http://anexsoft.com" target="_blank">Anexsoft</a>
+          </h1>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <example></example>
+            </li>
+            <li class="list-group-item">
+              <icon name="user"></icon>
+              <icon name="camera"></icon>
+              <icon name="users"></icon>
+            </li>
+            <li class="list-group-item">
+              <button class="btn btn-default">
+                <icon name="save"></icon> Save
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="./dist/global.components.js"></script>
+    <script src="./dist/icon.components.js"></script>
+    <script>
+      window.addEventListener('load', function() {
+        new Vue({
+            el: '#app',
+            components: Components
+        })
+
+        for (var k in Components) {
+            Vue.component(Components[k].name, Components[k])
+        }
+      })
+    </script>
+  </body>
+</html>
