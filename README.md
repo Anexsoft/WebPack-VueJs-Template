@@ -20,7 +20,7 @@ cd my-project-path
 git clone https://github.com/Anexsoft/WebPack-VueJs-Template
 
 # Actualizamos las dependencias
-npm update
+npm install
 ```
 
 ## Compilando nuestros componentes
