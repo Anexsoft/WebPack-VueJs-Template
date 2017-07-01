@@ -34,6 +34,10 @@ npm run dev
 npm run build
 ```
 
+# Genera los javascripts pero deja habilitado todo los errores posibles
+npm run build-test
+```
+
 ## En tu archivo HTML
 Luego de tener compilado los componentes deberás agregarlos a tu proyecto siendo el global.components.js el primero antes que los demás porque este contiene a VueJs. Asimismo, deberás ejecutar el siguiente código javascript para inicializar el registro de los componentes.
 
